@@ -12,6 +12,6 @@ phantomjs crawler.js <tagetUrl> <outputFilePath>
 node analysis.js <targetHtmlFile>
 
 # Example
-phantomjs crawler.js http://www.google.co.jp path/to/file.html
+phantomjs crawler.js http://www.google.com path/to/file.html
 
 node analysis.js path/to/file.html
