@@ -1,3 +1,5 @@
+// For more information .
+// https://github.com/cheeriojs/cheerio
 var fs = require('fs');
 var cheerio = require('cheerio');
 var jschardet = require('jschardet');
