@@ -13,7 +13,7 @@ if(system.args.length !== 3){
 var targetUrl = system.args[1];
 var outputFilePath = system.args[2];
 
-// Access Url and rendering web page.
+// Opening Url and rendering web page.
 page.open(targetUrl , function(status) {
 	if (status !== 'success') {
 		console.log('request failed!  URL: ' + targetUrl);
